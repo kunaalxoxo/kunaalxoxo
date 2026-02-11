@@ -1,7 +1,7 @@
 # 💫 About Me:
 # Hi there, I'm Kunaal Lala 👋
 
-2nd-year undergrad (GPA 7.84) from Kerala, India, building CRM workflows and chasing AI engineering by Aug 2026.
+2nd-year undergrad (GPA 7.84) from Hyderabad, India, building CRM workflows and chasing AI engineering by Aug 2026.
 
 ## What I Do
 - CRM developer customizing Zoho with Deluge scripting, workflows, and task automation
@@ -12,12 +12,6 @@
 - 🔍 Seeking AI/ML internships (Microsoft Explore, GSoC 2026)
 - 📚 Building data science portfolio with Python/pandas/scikit-learn
 - 🤝 Contributing to open-source CRM/automation projects
-
-## 🚀 Featured Projects
-<!-- Pin your best 3-5 repos and link them here -->
-- **[Project Name](link)** - Brief description highlighting impact and tech used
-- **[CRM Tool/Workflow](link)** - Zoho automation project showcasing Deluge expertise
-- **[AI/ML Project](link)** - Data science application (if available)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kunaalxoxo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kunaal-lala) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/-bhAAi-) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:urfav.kunaal@gmail.com)
