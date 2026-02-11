@@ -1,7 +1,7 @@
 # 💫 About Me:
 # Hi there, I'm Kunaal Lala 👋
 
-2nd-year undergrad (GPA 7.84) from Hyderabad, India, building CRM workflows and chasing AI engineering by Aug 2026.
+2nd-year undergrad (GPA 7.84) from Hyderabad, India, building CRM workflows and chasing AI engineering.
 
 ## What I Do
 - CRM developer customizing Zoho with Deluge scripting, workflows, and task automation
