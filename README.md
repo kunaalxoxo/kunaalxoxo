@@ -13,6 +13,11 @@
 - 📚 Building data science portfolio with Python/pandas/scikit-learn
 - 🤝 Contributing to open-source CRM/automation projects
 
+## Projects 
+- https://todo-list-app-zj31.onrender.com To-do List App
+- https://news-aggregator-4mvu.onrender.com News-Aggregator
+- https://dynamic-kelpie-90b880.netlify.app/ Notes
+
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kunaalxoxo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kunaal-lala) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/-bhAAi-) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:urfav.kunaal@gmail.com)
 
