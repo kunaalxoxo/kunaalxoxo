@@ -123,8 +123,8 @@ kunaal = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kunaalxoxo&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunaalxoxo&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kunaalxoxo&theme=tokyonight" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kunaalxoxo&theme=tokyonight" height="165"/>
 </p>
 
 <p align="center">
