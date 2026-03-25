@@ -1,99 +1,101 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Kunaal+Lala+%F0%9F%91%8B;AI+Engineer+%7C+Open-Source+Builder;Making+NVIDIA+engineers+nervous+since+2025;GSoC+2026+Applicant+%7C+BITS+Pilani+Hyderabad" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=hey%2C+i'm+kunaal+👋;19+from+vijayawada%2C+building+in+kochi;i+ship+things+that+actually+run;vibe+coder+%7C+systems+builder+%7C+gsc+2026" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  <b>2nd-year undergrad @ BITS Pilani Hyderabad</b> &middot; Building LLM-powered tools, automating everything in sight, and making GPU code portable one <code>.cu</code> file at a time.
+  2nd-year @ BITS Pilani Hyderabad &middot; Vijayawada → Hyderabad → Kochi &middot; building things that solve real problems, not just pass interviews
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/kunaal-lala"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://instagram.com/kunaalxoxo"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
-  <a href="https://reddit.com/user/-bhAAi-"><img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white"/></a>
   <a href="mailto:urfav.kunaal@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://instagram.com/kunaalxoxo"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 </p>
 
 ---
 
-## 🚀 Featured: cuda-migrator
+i grew up in vijayawada, moved to hyderabad for college, and right now i'm working out of kochi. no big network, no alumni connections handing me opportunities. just me, a laptop, and a tendency to stay up too late fixing things that almost work.
 
-> *CUDA lock-in is just NVIDIA's way of saying "please don't leave us." I built a tool that says bye.*
-
-**[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** is an LLM-powered tool that automatically migrates CUDA (`.cu`) code to AMD ROCm/HIP — making GPU code portable across NVIDIA and AMD hardware in **12 seconds** instead of **2–4 weeks**.
-
-```
-.cu → AST Parse → 65 Deterministic Rules → hipcc Validate → MI300X Benchmark → Report
-```
-
-- 🔍 **Zero regex** — tree-sitter AST analysis, not grep-and-pray
-- ⚡ **65 deterministic transformation rules** across 7 categories (headers, memory API, streams, events, enums...)
-- 🤖 **LLM fallback** via DeepSeek R1 on OpenRouter — only for edge cases, always compile-validated. Hallucinations get rejected automatically.
-- 📊 **Dual-format reporting** — JSON + Rich terminal panels for every migration run
-- ☁️ **3 compile modes**: stub (no AMD hardware needed), local hipcc, AMD Developer Cloud MI300X
-
-| Kernel | Status | Rules Fired | Throughput Delta |
-|--------|--------|-------------|-----------------|
-| `softmax.cu` | ✅ PASS | 21 | +3.2% on MI300X |
-| `gemm.cu` | ✅ PASS | 15 | +1.8% on MI300X |
-| `attention.cu` | ⚠️ WARN (intentional) | 19 | +2.1% on MI300X |
-
-> AMD MI300X is 30–40% cheaper per FLOP than NVIDIA H100. The only thing stopping enterprises from switching? 3 million production CUDA kernels. This tool fixes that.
-
-**[→ View Repository](https://github.com/kunaalxoxo/cuda-migrator)** &middot; **[→ pip install cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator#installation)**
+most of what i build is around automation and systems — the kind of stuff where there's a messy manual process and i want to know if i can make it disappear. sometimes i build GPU tooling. sometimes i build HR pipelines. depends on what's broken.
 
 ---
 
-## 🧠 What I Do
+## the main thing: cuda-migrator
+
+> *CUDA lock-in is just NVIDIA's way of saying "please don't leave." this tool says bye.*
+
+**[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** migrates `.cu` CUDA code to AMD ROCm/HIP automatically — what used to take 2–4 weeks now takes about 12 seconds.
+
+```
+.cu → AST parse → 65 deterministic rules → hipcc validate → MI300X benchmark → report
+```
+
+- no regex. tree-sitter AST analysis, because grep-and-pray isn't a migration strategy
+- 65 transformation rules across headers, memory API, streams, events, enums
+- LLM fallback via DeepSeek R1 (OpenRouter) — only for edge cases, compile-validated. hallucinations get auto-rejected
+- runs in 3 modes: stub (no AMD hardware), local hipcc, AMD Developer Cloud MI300X
+
+| kernel | status | rules fired | throughput delta |
+|--------|--------|-------------|-----------------|
+| softmax.cu | ✅ pass | 21 | +3.2% on MI300X |
+| gemm.cu | ✅ pass | 15 | +1.8% on MI300X |
+| attention.cu | ⚠️ warn (intentional) | 19 | +2.1% on MI300X |
+
+AMD MI300X is 30–40% cheaper per FLOP than H100. the only thing stopping enterprises from switching is ~3 million production CUDA kernels. that's the problem this solves.
+
+**[→ repo](https://github.com/kunaalxoxo/cuda-migrator)**
+
+---
+
+## and platepulse
+
+**[platepulse](https://github.com/kunaalxoxo/platepulse)** — because food tracking apps either look clinical or require a nutrition degree to use. built this to actually enjoy logging meals, not dread it.
+
+full-stack, real data, ships and runs. that's the standard i hold everything to.
+
+---
+
+## what i actually know
 
 ```python
 kunaal = {
-    "role":     ["AI/ML Engineer", "CRM Developer", "Open-Source Builder"],
-    "building": "tools that solve real problems (and yes, also a todo app — it deploys though)",
-    "skills":   {
-        "AI/ML":      ["LLM tooling", "Python", "NumPy", "Pandas", "scikit-learn"],
-        "CRM":        ["Zoho CRM", "Deluge scripting", "workflow automation"],
-        "Full-Stack": ["React", "Node.js", "Vue.js", "TailwindCSS"],
-        "DevOps":     ["Docker", "Vercel", "Netlify", "Render"],
-    },
-    "currently_chasing": ["GSoC 2026", "Microsoft Explore", "Claude for OSS 🤞"],
-    "fun_fact": "built cuda-migrator in one sitting. the commit timestamps are evidence.",
+    "currently":  "kochi, kerala — working & building",
+    "base":       "bits pilani hyderabad",
+    "hometown":   "vijayawada, andhra pradesh",
+    "ai_ml":      ["LLM tooling", "python", "numpy", "pandas", "scikit-learn"],
+    "systems":    ["CUDA → ROCm migration", "tree-sitter AST", "GPU benchmarking"],
+    "crm":        ["zoho CRM", "zoho people", "deluge scripting", "workflow automation"],
+    "fullstack":  ["react", "node.js", "vue.js", "tailwind"],
+    "devops":     ["docker", "vercel", "netlify", "render"],
+    "chasing":    ["GSoC 2026", "VibeCon India", "building something people actually use"],
+    "fun_fact":   "built cuda-migrator in one sitting. the commit timestamps are evidence.",
 }
 ```
 
 ---
 
-## 🎯 Current Focus
+## other stuff that runs
 
-- 🛠️ Growing **[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** — Phase 2 (real hipcc + rocprof benchmarking) is next. Contributions welcome
-- 🔍 Applying for **Microsoft Explore Program** and **GSoC 2026**
-- 📊 Building a data science portfolio with Python, pandas, and scikit-learn
-- ☕ Running on chai and questionable sleep schedules
-
----
-
-## 🌐 Other Projects
-
-| Project | Description | Live |
-|---------|-------------|------|
-| Todo List App | Full-stack task manager (everyone builds one, mine actually works) | [🔗](https://todo-list-app-zj31.onrender.com) |
-| News Aggregator | Real-time news feed — because doom-scrolling deserves some structure | [🔗](https://news-aggregator-4mvu.onrender.com) |
-| Notes App | Clean markdown notes app | [🔗](https://dynamic-kelpie-90b880.netlify.app/) |
+| project | what it is | link |
+|---------|-----------|------|
+| platepulse | food tracking that doesn't feel like homework | [→](https://github.com/kunaalxoxo/platepulse) |
+| todo list app | yes everyone builds one. mine deploys and stays up | [→](https://todo-list-app-zj31.onrender.com) |
+| news aggregator | real-time feed — doom-scrolling with structure | [→](https://news-aggregator-4mvu.onrender.com) |
+| notes app | clean markdown notes, nothing fancy | [→](https://dynamic-kelpie-90b880.netlify.app/) |
 
 ---
 
-## 💻 Tech Stack
+## stack
 
-**Languages**
+**languages**
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white)
 
-**Frameworks & Libraries**
+**frameworks**
 
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
@@ -101,26 +103,18 @@ kunaal = {
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat-square&logo=scikit-learn&logoColor=white)
 
-**Databases & Cloud**
+**infra**
 
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-%23000000.svg?style=flat-square&logo=netlify&logoColor=white)
-
-**Tools**
-
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
+## stats
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kunaalxoxo&theme=tokyonight" height="165"/>
@@ -129,4 +123,10 @@ kunaal = {
 
 <p align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=kunaalxoxo&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+<p align="center">
+  <i>vijayawada kid figuring it out one commit at a time</i>
 </p>
