@@ -2,20 +2,12 @@
   <rect width="900" height="160" fill="#0d1117"/>
 
   <text
-    x="50" y="95"
+    x="50" y="110"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="72"
+    font-size="86"
     font-weight="700"
     fill="#e6edf3"
-    letter-spacing="-3"
+    letter-spacing="-4"
   >kunaal</text>
-
-  <text
-    x="52" y="128"
-    font-family="'Courier New', Courier, monospace"
-    font-size="13"
-    fill="#484f58"
-    letter-spacing="3"
-  >builder · bits pilani hyderabad · gsoc 2026</text>
 
 </svg>
