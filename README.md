@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=160&section=header&text=kunaal&fontSize=72&fontColor=e94560&animation=fadeIn&fontAlignY=45&desc=19%20%C2%B7%20bits%20pilani%20hyderabad%20%C2%B7%20building%20things%20that%20actually%20run&descSize=16&descAlignY=72&descColor=a8b2d8" />
+<img src="header.svg" alt="kunaal" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kunaal-lala)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urfav.kunaal@gmail.com)
@@ -62,7 +62,7 @@ kunaal = {
     "crm":       ["zoho crm", "zoho people", "deluge scripting", "workflow automation"],
     "fullstack": ["react", "node.js", "express", "vue.js", "tailwind", "mongodb", "redis"],
     "devops":    ["docker", "vercel", "netlify", "render"],
-    "chasing":   ["gsc 2026", "vibecon india", "shipping things people actually use"],
+    "chasing":   ["gsoc 2026", "vibecon india", "shipping things people actually use"],
     "fun_fact":  "built cuda-migrator in one sitting. commit timestamps are evidence.",
 }
 ```
@@ -120,4 +120,6 @@ kunaal = {
   <img src="https://github-readme-streak-stats.herokuapp.com?user=kunaalxoxo&theme=tokyonight&hide_border=true" alt="streak stats" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=100&section=footer" />
+---
+
+<p align="center"><i>figuring it out one commit at a time</i></p>
