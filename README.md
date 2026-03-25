@@ -1,15 +1,6 @@
 <div align="center">
 
-```
-██╗  ██╗██╗   ██╗███╗   ██╗ █████╗  █████╗ ██╗
-██║ ██╔╝██║   ██║████╗  ██║██╔══██╗██╔══██╗██║
-█████╔╝ ██║   ██║██╔██╗ ██║███████║███████║██║
-██╔═██╗ ██║   ██║██║╚██╗██║██╔══██║██╔══██║██║
-██║  ██╗╚██████╔╝██║ ╚████║██║  ██║██║  ██║███████╗
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-```
-
-**19 · bits pilani hyderabad · building things that actually run**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=160&section=header&text=kunaal&fontSize=72&fontColor=e94560&animation=fadeIn&fontAlignY=45&desc=19%20%C2%B7%20bits%20pilani%20hyderabad%20%C2%B7%20building%20things%20that%20actually%20run&descSize=16&descAlignY=72&descColor=a8b2d8" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kunaal-lala)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urfav.kunaal@gmail.com)
@@ -54,9 +45,9 @@ amd mi300x is 30–40% cheaper per flop than h100. the only thing stopping enter
 
 ## platepulse
 
-**[platepulse](https://github.com/kunaalxoxo/platepulse)** is a smart food waste redistribution platform — it connects places with surplus food to ngos and non-profit organizations so that food gets used instead of thrown away.
+**[platepulse](https://github.com/kunaalxoxo/platepulse)** is a smart food waste redistribution platform — connects places with surplus food to ngos and non-profits so that food gets used instead of thrown away.
 
-built with react 18 + vite, node.js, express, mongodb atlas, redis, and socket.io for real-time updates. the whole thing is structured around making the food-to-ngo handoff as frictionless as possible — listings, matching, live status, all of it.
+built with react 18 + vite, node.js, express, mongodb atlas, redis, and socket.io for real-time updates. structured around making the food-to-ngo handoff as frictionless as possible — listings, matching, live status, all of it.
 
 **[→ repo](https://github.com/kunaalxoxo/platepulse)**
 
@@ -129,6 +120,4 @@ kunaal = {
   <img src="https://github-readme-streak-stats.herokuapp.com?user=kunaalxoxo&theme=tokyonight&hide_border=true" alt="streak stats" />
 </p>
 
----
-
-<p align="center"><i>figuring it out one commit at a time</i></p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=100&section=footer" />
