@@ -4,40 +4,39 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kunaal-lala)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urfav.kunaal@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kunaalxoxo)
 
 </div>
 
 ---
 
-most of what i build is around fixing things that are broken in ways people have just accepted. messy manual processes, wasted resources, code that only runs on one vendor's hardware. i find the problem annoying enough to actually do something about it.
+**Software developer** based in Kerala, India. I build tools that eliminate friction — GPU migration pipelines, food-waste redistribution platforms, CRM automation. Working mostly solo. Learning faster than I'm comfortable with. That's the goal.
 
-working mostly solo. learning faster than i'm comfortable with. that's the goal.
+> Open to internships and collaborations — [reach out](mailto:urfav.kunaal@gmail.com)
 
 ---
 
 ## cuda-migrator
 
-> *cuda lock-in is just nvidia's way of saying "please don't leave." this tool says bye.*
+> *CUDA lock-in is just NVIDIA's way of saying "please don't leave." This tool says bye.*
 
-**[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** migrates `.cu` cuda code to amd rocm/hip automatically — what used to take 2–4 weeks of engineering time now takes about 12 seconds.
+**[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** migrates `.cu` CUDA code to AMD ROCm/HIP automatically — what used to take 2–4 weeks of engineering time now takes about 12 seconds.
 
 ```
-.cu → ast parse → 65 deterministic rules → hipcc validate → mi300x benchmark → report
+.cu → AST parse → 65 deterministic rules → hipcc validate → MI300x benchmark → report
 ```
 
-- no regex. tree-sitter ast analysis, not grep-and-pray
-- 65 transformation rules across headers, memory api, streams, events, enums
-- llm fallback via deepseek r1 (openrouter) — only for edge cases, compile-validated. hallucinations get auto-rejected
-- runs in 3 modes: stub (no amd hardware needed), local hipcc, amd developer cloud mi300x
+- No regex. Tree-sitter AST analysis, not grep-and-pray
+- 65 transformation rules across headers, memory API, streams, events, enums
+- LLM fallback via DeepSeek R1 (OpenRouter) — only for edge cases, compile-validated; hallucinations get auto-rejected
+- Runs in 3 modes: stub (no AMD hardware needed), local hipcc, AMD Developer Cloud MI300x
 
 | kernel | status | rules fired | throughput delta |
 |--------|--------|-------------|------------------|
-| softmax.cu | ✅ pass | 21 | +3.2% on mi300x |
-| gemm.cu | ✅ pass | 15 | +1.8% on mi300x |
-| attention.cu | ⚠️ warn (intentional) | 19 | +2.1% on mi300x |
+| softmax.cu | ✅ pass | 21 | +3.2% on MI300x |
+| gemm.cu | ✅ pass | 15 | +1.8% on MI300x |
+| attention.cu | ⚠️ warn (intentional) | 19 | +2.1% on MI300x |
 
-amd mi300x is 30–40% cheaper per flop than h100. the only thing stopping enterprises from switching is ~3 million production cuda kernels. that's the gap this fills.
+AMD MI300x is 30–40% cheaper per FLOP than H100. The only thing stopping enterprises from switching is ~3 million production CUDA kernels. That's the gap this fills.
 
 **[→ repo](https://github.com/kunaalxoxo/cuda-migrator)**
 
@@ -45,9 +44,13 @@ amd mi300x is 30–40% cheaper per flop than h100. the only thing stopping enter
 
 ## platepulse
 
-**[platepulse](https://github.com/kunaalxoxo/platepulse)** is a smart food waste redistribution platform — connects places with surplus food to ngos and non-profits so that food gets used instead of thrown away.
+**[platepulse](https://github.com/kunaalxoxo/platepulse)** is a smart food waste redistribution platform — connects restaurants and food businesses with surplus inventory to NGOs and non-profits, so food gets used instead of thrown away.
 
-built with react 18 + vite, node.js, express, mongodb atlas, redis, and socket.io for real-time updates. structured around making the food-to-ngo handoff as frictionless as possible — listings, matching, live status, all of it.
+**Stack:** React 18 + Vite, Node.js, Express, MongoDB Atlas, Redis, Socket.io
+
+- Real-time listings and live status updates via Socket.io
+- Matching logic between food donors and recipient NGOs
+- Built to make the food-to-NGO handoff as frictionless as possible — zero manual coordination
 
 **[→ repo](https://github.com/kunaalxoxo/platepulse)**
 
@@ -62,10 +65,19 @@ kunaal = {
     "crm":       ["zoho crm", "zoho people", "deluge scripting", "workflow automation"],
     "fullstack": ["react", "node.js", "express", "vue.js", "tailwind", "mongodb", "redis"],
     "devops":    ["docker", "vercel", "netlify", "render"],
-    "chasing":   ["gsoc 2026", "vibecon india", "shipping things people actually use"],
+    "currently": ["gsoc 2026", "open source contributions", "shipping things people actually use"],
     "fun_fact":  "built cuda-migrator in one sitting. commit timestamps are evidence.",
 }
 ```
+
+---
+
+## currently building / learning
+
+- 🔭 Exploring open source contributions for **GSoC 2026**
+- 🌱 Deepening knowledge in **LLM tooling**, **compiler design**, and **GPU compute**
+- ⚡ Automating everything annoying with **Deluge + Zoho** at work
+- 📬 Always open to interesting problems — [kunaal.lala@outlook.com](mailto:kunaal.lala@outlook.com)
 
 ---
 
@@ -112,8 +124,8 @@ kunaal = {
 ## stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kunaalxoxo&theme=tokyonight" height="165"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kunaalxoxo&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=kunaalxoxo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunaalxoxo&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 <p align="center">
