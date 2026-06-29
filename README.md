@@ -65,7 +65,7 @@ kunaal = {
     "crm":       ["zoho crm", "zoho people", "deluge scripting", "workflow automation"],
     "fullstack": ["react", "node.js", "express", "vue.js", "tailwind", "mongodb", "redis"],
     "devops":    ["docker", "vercel", "netlify", "render"],
-    "currently": ["gsoc 2026", "open source contributions", "shipping things people actually use"],
+    "currently": ["open source contributions", "shipping things people actually use"],
     "fun_fact":  "built cuda-migrator in one sitting. commit timestamps are evidence.",
 }
 ```
@@ -74,7 +74,6 @@ kunaal = {
 
 ## currently building / learning
 
-- 🔭 Exploring open source contributions for **GSoC 2026**
 - 🌱 Deepening knowledge in **LLM tooling**, **compiler design**, and **GPU compute**
 - ⚡ Automating everything annoying with **Deluge + Zoho** at work
 - 📬 Always open to interesting problems — [kunaal.lala@outlook.com](mailto:kunaal.lala@outlook.com)
