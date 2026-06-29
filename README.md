@@ -9,34 +9,34 @@
 
 ---
 
-**Software developer** based in Kerala, India. I build tools that eliminate friction — GPU migration pipelines, food-waste redistribution platforms, CRM automation. Working mostly solo. Learning faster than I'm comfortable with. That's the goal.
+**software developer** based in hyderabad, india. i build tools that eliminate friction — gpu migration pipelines, food-waste redistribution platforms, crm automation. working mostly solo. learning faster than i'm comfortable with. that's the goal.
 
-> Open to internships and collaborations — [reach out](mailto:urfav.kunaal@gmail.com)
+> open to internships and collaborations — [reach out](mailto:urfav.kunaal@gmail.com)
 
 ---
 
 ## cuda-migrator
 
-> *CUDA lock-in is just NVIDIA's way of saying "please don't leave." This tool says bye.*
+> *cuda lock-in is just nvidia's way of saying "please don't leave." this tool says bye.*
 
-**[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** migrates `.cu` CUDA code to AMD ROCm/HIP automatically — what used to take 2–4 weeks of engineering time now takes about 12 seconds.
+**[cuda-migrator](https://github.com/kunaalxoxo/cuda-migrator)** migrates `.cu` cuda code to amd rocm/hip automatically — what used to take 2–4 weeks of engineering time now takes about 12 seconds.
 
 ```
-.cu → AST parse → 65 deterministic rules → hipcc validate → MI300x benchmark → report
+.cu → ast parse → 65 deterministic rules → hipcc validate → mi300x benchmark → report
 ```
 
-- No regex. Tree-sitter AST analysis, not grep-and-pray
-- 65 transformation rules across headers, memory API, streams, events, enums
-- LLM fallback via DeepSeek R1 (OpenRouter) — only for edge cases, compile-validated; hallucinations get auto-rejected
-- Runs in 3 modes: stub (no AMD hardware needed), local hipcc, AMD Developer Cloud MI300x
+- no regex. tree-sitter ast analysis, not grep-and-pray
+- 65 transformation rules across headers, memory api, streams, events, enums
+- llm fallback via deepseek r1 (openrouter) — only for edge cases, compile-validated; hallucinations get auto-rejected
+- runs in 3 modes: stub (no amd hardware needed), local hipcc, amd developer cloud mi300x
 
 | kernel | status | rules fired | throughput delta |
 |--------|--------|-------------|------------------|
-| softmax.cu | ✅ pass | 21 | +3.2% on MI300x |
-| gemm.cu | ✅ pass | 15 | +1.8% on MI300x |
-| attention.cu | ⚠️ warn (intentional) | 19 | +2.1% on MI300x |
+| softmax.cu | ✅ pass | 21 | +3.2% on mi300x |
+| gemm.cu | ✅ pass | 15 | +1.8% on mi300x |
+| attention.cu | ⚠️ warn (intentional) | 19 | +2.1% on mi300x |
 
-AMD MI300x is 30–40% cheaper per FLOP than H100. The only thing stopping enterprises from switching is ~3 million production CUDA kernels. That's the gap this fills.
+amd mi300x is 30–40% cheaper per flop than h100. the only thing stopping enterprises from switching is ~3 million production cuda kernels. that's the gap this fills.
 
 **[→ repo](https://github.com/kunaalxoxo/cuda-migrator)**
 
@@ -44,13 +44,13 @@ AMD MI300x is 30–40% cheaper per FLOP than H100. The only thing stopping enter
 
 ## platepulse
 
-**[platepulse](https://github.com/kunaalxoxo/platepulse)** is a smart food waste redistribution platform — connects restaurants and food businesses with surplus inventory to NGOs and non-profits, so food gets used instead of thrown away.
+**[platepulse](https://github.com/kunaalxoxo/platepulse)** is a smart food waste redistribution platform — connects restaurants and food businesses with surplus inventory to ngos and non-profits, so food gets used instead of thrown away.
 
-**Stack:** React 18 + Vite, Node.js, Express, MongoDB Atlas, Redis, Socket.io
+**stack:** react 18 + vite, node.js, express, mongodb atlas, redis, socket.io
 
-- Real-time listings and live status updates via Socket.io
-- Matching logic between food donors and recipient NGOs
-- Built to make the food-to-NGO handoff as frictionless as possible — zero manual coordination
+- real-time listings and live status updates via socket.io
+- matching logic between food donors and recipient ngos
+- built to make the food-to-ngo handoff as frictionless as possible — zero manual coordination
 
 **[→ repo](https://github.com/kunaalxoxo/platepulse)**
 
@@ -74,9 +74,9 @@ kunaal = {
 
 ## currently building / learning
 
-- 🌱 Deepening knowledge in **LLM tooling**, **compiler design**, and **GPU compute**
-- ⚡ Automating everything annoying with **Deluge + Zoho** at work
-- 📬 Always open to interesting problems — [kunaal.lala@outlook.com](mailto:kunaal.lala@outlook.com)
+- 🌱 deepening knowledge in **llm tooling**, **compiler design**, and **gpu compute**
+- ⚡ automating everything annoying with **deluge + zoho** at work
+- 📬 always open to interesting problems — [kunaal.lala@outlook.com](mailto:kunaal.lala@outlook.com)
 
 ---
 
