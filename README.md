@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="header.svg" alt="kunaal" width="100%" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=52&duration=3000&pause=1000&color=E6EDF3&background=0D111700&center=true&vCenter=true&width=600&height=100&lines=kunaal)](https://git.io/typing-svg)
+
+<sub><sub>software developer &nbsp;·&nbsp; hyderabad &nbsp;·&nbsp; builder</sub></sub>
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kunaal-lala)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:urfav.kunaal@gmail.com)
